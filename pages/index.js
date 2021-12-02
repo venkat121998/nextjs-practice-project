@@ -32,7 +32,7 @@ function HomePage(props) {
     <Fragment>
       <Head>
         <title>Next.js MeetUp</title>
-        <meta name="description" content="This is the index page for the next js meetup page"/>
+        <meta name="description" content="This is the index page for the next js meetup site"/>
       </Head>
       <MeetupList meetups={props.meetups} />
     </Fragment>
